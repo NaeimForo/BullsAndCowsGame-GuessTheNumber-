@@ -1,0 +1,16 @@
+com\mycompany\bullsandcows\servicelayer\InvalidRoundException.class
+com\mycompany\bullsandcows\dao\BullsAndCowsRoundDaoDB$RoundMapper.class
+com\mycompany\bullsandcows\servicelayer\ServiceLayer.class
+com\mycompany\bullsandcows\servicelayer\InvalidGameException.class
+com\mycompany\bullsandcows\dao\BullsAndCowsRoundDao.class
+com\mycompany\bullsandcows\dao\BullsAndCowsGameDaoDB.class
+com\mycompany\bullsandcows\dao\BullsAndCowsRoundDaoDB.class
+com\mycompany\bullsandcows\TestApplicationConfiguration.class
+com\mycompany\bullsandcows\controller\BullsAndCowsControllerExceptionHandler.class
+com\mycompany\bullsandcows\controller\Controller.class
+com\mycompany\bullsandcows\dao\BullsAndCowsGameDaoDB$GameMapper.class
+com\mycompany\bullsandcows\entity\Round.class
+com\mycompany\bullsandcows\App.class
+com\mycompany\bullsandcows\entity\Game.class
+com\mycompany\bullsandcows\controller\Error.class
+com\mycompany\bullsandcows\dao\BullsAndCowsGameDao.class

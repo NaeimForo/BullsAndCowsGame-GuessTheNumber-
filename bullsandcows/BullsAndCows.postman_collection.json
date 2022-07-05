@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "d7929e67-8a92-4605-a790-fe4acbee9268",
+		"name": "BullsAndCows",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21487105"
+	},
+	"item": [
+		{
+			"name": "EndPoint 1: Begin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/guessthenumber/begin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"guessthenumber",
+						"begin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EndPoint 2: Guess",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"gameId\" : 1,\r\n    \"guess\": \"7459\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/guessthenumber/guess",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"guessthenumber",
+						"guess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EndPoint 3 : Game",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "EndPoint 4 : FindGame",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/guessthenumber/game/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"guessthenumber",
+						"game",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EndPoint 5: Round",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/guessthenumber/rounds/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"guessthenumber",
+						"rounds",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
